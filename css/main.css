@@ -67,3 +67,13 @@ p{
 	margin-top: 50px;
 	margin-right: 100px;
 }
+#Image2
+{
+	display: flex;
+	float: right;
+	margin-left:100px;
+
+}
+.Text2{
+	margin-left:100px;
+}
