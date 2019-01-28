@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.hidden{
+	display: none;
+}
+#container
+{
+	width: 960px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+#mainHeader{
+	font-family: 'Lobster', cursive; 
+	font-size: 100px;
+	text-align: center;
+	margin-top: 20px;
+	text-shadow: 3px 5px grey;
+}
+#mainNav{
+	height: 60px;
+	background: rgb(99,171,226);
+
+background: -moz-linear-gradient(top, rgba(99,171,226,1) 0%, rgba(15,135,226,1) 100%);
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(99,171,226,1)), color-stop(100%,rgba(15,135,226,1)));
+
+background: -webkit-linear-gradient(top, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+
+background: -o-linear-gradient(top, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+
+background: -ms-linear-gradient(top, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+
+background: linear-gradient(to bottom, rgba(99,171,226,1) 0%,rgba(15,135,226,1) 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63abe2', endColorstr='#0f87e2',GradientType=0 );
+
+}
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+}
+#mainNav ul li a{
+	display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 120px;
+    margin-top: 10px;
+    padding: 10px;
+    transition: all .5s ease;
+}
+#mainNav ul li a:hover
+{
+	background-color: #73B2E2;
+	color: #333;
+	border-radius: 10px;
+}
+#Image1
+{
+	display: flex;
+
+}
+p{
+	font-family:'Lobster','Permanent Marker', cursive;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 100px;
+}
